@@ -9,7 +9,7 @@ interface Props {
 const DashboardLayout: FC<Props> = ({ children }) => {
   return (
     <>
-      <div className="d-flax">
+      <div className="d-flex">
         <Sidebar />
         <Topbar />
       </div>
