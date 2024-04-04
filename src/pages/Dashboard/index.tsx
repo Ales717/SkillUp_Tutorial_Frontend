@@ -5,7 +5,7 @@ import * as API from 'api/Api'
 
 const Dashboard: FC = () => {
   useEffect(() => {
-    ;(async () => {
+    (async () => {
       const chart = C3.generate({
         bindto: '#chart',
         data: {
